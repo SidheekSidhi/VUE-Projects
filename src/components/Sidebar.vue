@@ -9,12 +9,12 @@
           </li>
           <li>
             <a>
-              <router-link to="/Login">LOGIN</router-link>
+              <router-link to="/About">ABOUT</router-link>
             </a>
           </li>
           <li>
             <a>
-              <router-link to="/About">ABOUT</router-link>
+              <router-link to="/Login">LOGIN</router-link>
             </a>
           </li>
         </ul>
@@ -32,16 +32,16 @@ export default {
 .sidebar{
   position: fixed;
   left: 0;
-  width: 250px;
+  width: 20%;
   height: 100%;
-  background: #042331;
+  background: #096568;
 }
 .sidebar-items header{
   font-size: 20px;
   color: white;
   text-align: center;
   line-height: 70px;
-  background: #063146;
+  background: #07a59d;
   user-select: none;
 }
 .sidebar-items  ul a{
